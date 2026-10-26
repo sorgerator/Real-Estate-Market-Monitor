@@ -2,3 +2,4 @@
 .env/
 .antigravity/
 prompt.pdf
+token.pickle

@@ -80,6 +80,9 @@ def handle_missing_values(df, critical_columns=None, text_columns=None, numeric_
     # 5. Fill descriptive text fields with placeholders
     for col in text_columns:
         if col in df.columns:
+            if isinstance(df[col].dtype, pd.CategoricalDtype):
+                if "No description provided" not in df[col].cat.categories:
+                    df[col] = df[col].cat.add_categories(["No description provided"])
             df[col] = df[col].fillna("No description provided")
             logging.info(f"Filled missing values in {col} with placeholder.")
 

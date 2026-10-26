@@ -1,0 +1,3 @@
+[build]
+  publish = "netlify_dist"
+  command = "python scripts/export_netlify.py"

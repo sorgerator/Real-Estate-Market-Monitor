@@ -14,6 +14,7 @@ def clean_string_columns(df, columns=None):
     for col in columns:
         if col in df.columns:
             logging.info(f"Cleaning column: {col}")
+            mask = df[col].isna()
             # Ensure it's string type for .str accessor
             df[col] = df[col].astype(str)
             
@@ -26,6 +27,9 @@ def clean_string_columns(df, columns=None):
             # Replace multiple spaces with a single space
             df[col] = df[col].str.replace(r'\s+', ' ', regex=True)
             
+            # Restore NaNs (or handle literal 'nan'/'none' strings)
+            df.loc[mask | df[col].isin(['nan', 'none']), col] = None
+            
             logging.info(f"Column {col} cleaned.")
 
     return df
@@ -36,5 +40,7 @@ def normalize_property_types(df, column='type'):
     """
     if column in df.columns:
         logging.info(f"Normalizing property types in column: {column}")
+        mask = df[column].isna()
         df[column] = df[column].astype(str).str.strip().str.title()
+        df.loc[mask | df[column].isin(['Nan', 'None', '']), column] = 'Commercial'
     return df
