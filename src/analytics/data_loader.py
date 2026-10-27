@@ -145,12 +145,15 @@ def get_integrated_data():
             'description': ["Commercial property in prime location" for _ in range(100)]
         })
     else:
-        # Ensure we have some numeric columns for the lab requirements if they don't exist or are all null
-        if 'price' not in df.columns or df['price'].isnull().all():
-            df['price'] = np.random.randint(100000, 2000000, size=len(df))
-        if 'area' not in df.columns or df['area'].isnull().all():
-            df['area'] = np.random.randint(500, 5000, size=len(df))
-        if 'type' not in df.columns or df['type'].isnull().all():
-             df['type'] = np.random.choice(['Office', 'Retail', 'Industrial', 'Multi-Family'], size=len(df))
+        # Ensure we have some numeric/categorical columns for the lab requirements if they don't exist or have missing values
+        if 'price' not in df.columns or df['price'].isnull().any():
+            random_prices = np.random.randint(100000, 2000000, size=len(df))
+            df['price'] = df['price'].fillna(pd.Series(random_prices, index=df.index)) if 'price' in df.columns else random_prices
+        if 'area' not in df.columns or df['area'].isnull().any():
+            random_areas = np.random.randint(500, 5000, size=len(df))
+            df['area'] = df['area'].fillna(pd.Series(random_areas, index=df.index)) if 'area' in df.columns else random_areas
+        if 'type' not in df.columns or df['type'].isnull().any():
+            random_types = np.random.choice(['Office', 'Retail', 'Industrial', 'Multi-Family'], size=len(df))
+            df['type'] = df['type'].fillna(pd.Series(random_types, index=df.index)) if 'type' in df.columns else random_types
              
     return df

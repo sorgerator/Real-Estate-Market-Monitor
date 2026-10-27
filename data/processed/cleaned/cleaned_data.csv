@@ -245,3 +245,90 @@ price,collected_at,source,listing_id,coordinates,area,type,description,title,ext
 1.93887e+06,2026-05-15t17:39:53.813878,loopnet api,36383580,"[[-77.707229, 43.168906]]",3704.0,Office,beautiful office space built in 1995. new roof installed in 2020.,property listing 6740,,False
 282375.0,2026-05-20t11:41:18.554534,loopnet api,40547197,"[[-77.599637, 43.15118]]",4614.0,Retail,"modern office building, 2015 construction.",property listing 6854,,False
 237944.0,2026-05-20t11:41:18.554534,loopnet api,40548083,"[[-77.581503, 43.168196]]",1460.0,Retail,"modern office building, 2015 construction.",property listing 6874,,False
+432284.0,2026-10-26t11:05:02.598971,loopnet api,42107295,"[[-77.51821, 43.128989]]",2358.0,Retail,retail storefront. contact 555-0199 for info.,property listing 246,,False
+968959.0,2026-10-26t11:05:02.598971,loopnet api,42842770,"[[-77.617668, 43.082556]]",1614.0,Office,"industrial warehouse, zoned m1. 5000 sqft available.",property listing 247,,False
+115101.0,2026-10-26t11:05:02.598971,loopnet api,42749586,"[[-77.607159, 43.074399]]",1954.0,Retail,prime location property. price reduced by 10%.,property listing 248,,False
+362469.0,2026-10-26t11:05:02.598971,loopnet api,42654336,"[[-77.638439, 43.189708]]",2379.0,Retail,"modern office building, 2015 construction.",property listing 249,,False
+409643.0,2026-10-26t11:05:02.598971,loopnet api,42595987,"[[-77.596902, 43.158335]]",3282.0,Retail,beautiful office space built in 1995. new roof installed in 2020.,property listing 250,,False
+175593.0,2026-10-26t11:05:02.598971,loopnet api,42581786,"[[-77.650605, 43.133971]]",3229.0,Office,retail storefront. contact 555-0199 for info.,property listing 251,,False
+911049.0,2026-10-26t11:05:02.598971,loopnet api,42512696,"[[-77.611947, 43.060897]]",2280.0,Multi-Family,"industrial warehouse, zoned m1. 5000 sqft available.",property listing 252,,False
+374024.0,2026-10-26t11:05:02.598971,loopnet api,42415552,"[[-77.636363, 43.154887]]",4353.0,Retail,prime location property. price reduced by 10%.,property listing 253,,False
+1.268553e+06,2026-10-26t11:05:02.598971,loopnet api,42337812,"[[-77.580493, 43.095266]]",2098.0,Office,"modern office building, 2015 construction.",property listing 254,,False
+347569.0,2026-10-26t11:05:02.598971,loopnet api,42280650,"[[-77.626185, 43.167935]]",4708.0,Industrial,beautiful office space built in 1995. new roof installed in 2020.,property listing 255,,False
+1.085231e+06,2026-10-26t11:05:02.598971,loopnet api,42280089,"[[-77.626392, 43.168201]]",3482.0,Retail,retail storefront. contact 555-0199 for info.,property listing 256,,False
+1.021664e+06,2026-10-26t11:05:02.598971,loopnet api,42203447,"[[-77.62468, 43.19314]]",3125.0,Office,"industrial warehouse, zoned m1. 5000 sqft available.",property listing 257,,False
+615177.0,2026-10-26t11:05:02.598971,loopnet api,42137474,"[[-77.583992, 43.162362], [-77.583488, 43.16274]]",3361.0,Industrial,prime location property. price reduced by 10%.,property listing 258,,False
+1.335945e+06,2026-10-26t11:05:02.598971,loopnet api,42121746,"[[-77.654299, 43.184782]]",2193.0,Office,"modern office building, 2015 construction.",property listing 259,,False
+1.440028e+06,2026-10-26t11:05:02.598971,loopnet api,42087445,"[[-77.595565, 43.117516]]",4610.0,Multi-Family,beautiful office space built in 1995. new roof installed in 2020.,property listing 260,,False
+623603.0,2026-10-26t11:05:02.598971,loopnet api,42087118,"[[-77.629991, 43.090886]]",4691.0,Industrial,retail storefront. contact 555-0199 for info.,property listing 261,,False
+1.22851e+06,2026-10-26t11:05:02.598971,loopnet api,42073238,"[[-77.571603, 43.201031]]",4017.0,Office,"industrial warehouse, zoned m1. 5000 sqft available.",property listing 262,,False
+497714.0,2026-10-26t11:05:02.598971,loopnet api,42053255,"[[-77.568769, 43.160322]]",789.0,Industrial,prime location property. price reduced by 10%.,property listing 263,,False
+405476.0,2026-10-26t11:05:02.598971,loopnet api,42050807,"[[-77.599876, 43.174229]]",4650.0,Industrial,"modern office building, 2015 construction.",property listing 264,,False
+278016.0,2026-10-26t11:05:02.598971,loopnet api,42020229,"[[-77.679926, 43.180289]]",2683.0,Office,beautiful office space built in 1995. new roof installed in 2020.,property listing 265,,False
+495673.0,2026-10-26t11:05:02.598971,loopnet api,41948643,"[[-77.645022, 43.090775]]",1109.0,Retail,retail storefront. contact 555-0199 for info.,property listing 266,,False
+248223.0,2026-10-26t11:05:02.598971,loopnet api,41903474,"[[-77.571196, 43.201165]]",4407.0,Office,"industrial warehouse, zoned m1. 5000 sqft available.",property listing 267,,False
+1.802772e+06,2026-10-26t11:05:02.598971,loopnet api,41877149,"[[-77.625832, 43.14366]]",942.0,Multi-Family,prime location property. price reduced by 10%.,property listing 268,,False
+517359.0,2026-10-26t11:05:02.598971,loopnet api,41873809,"[[-77.608959, 43.162446]]",3599.0,Office,"modern office building, 2015 construction.",property listing 269,,False
+1.997552e+06,2026-10-26t11:05:02.598971,loopnet api,41870745,"[[-77.50557, 43.153377]]",4951.0,Multi-Family,beautiful office space built in 1995. new roof installed in 2020.,property listing 270,,False
+1.515876e+06,2026-10-26t11:05:02.598971,loopnet api,41861611,"[[-77.59751, 43.14122]]",4586.0,Retail,retail storefront. contact 555-0199 for info.,property listing 271,,False
+981549.0,2026-10-26t11:05:02.598971,loopnet api,41791982,"[[-77.638828, 43.18071]]",1265.0,Retail,"industrial warehouse, zoned m1. 5000 sqft available.",property listing 272,,False
+1.703783e+06,2026-10-26t11:05:02.598971,loopnet api,41776061,"[[-77.605212, 43.196182]]",2113.0,Retail,prime location property. price reduced by 10%.,property listing 273,,False
+786994.0,2026-10-26t11:05:02.598971,loopnet api,41707232,"[[-77.558548, 43.163768]]",1634.0,Multi-Family,"modern office building, 2015 construction.",property listing 274,,False
+1.957365e+06,2026-10-26t11:05:02.598971,loopnet api,41703673,"[[-77.564623, 43.194997]]",3761.0,Multi-Family,beautiful office space built in 1995. new roof installed in 2020.,property listing 275,,False
+1.023377e+06,2026-10-26t11:05:02.598971,loopnet api,41549541,"[[-77.647996, 43.151388]]",1425.0,Office,retail storefront. contact 555-0199 for info.,property listing 276,,False
+584616.0,2026-10-26t11:05:02.598971,loopnet api,41494135,"[[-77.604893, 43.165891]]",2458.0,Retail,"industrial warehouse, zoned m1. 5000 sqft available.",property listing 277,,False
+1.813768e+06,2026-10-26t11:05:02.598971,loopnet api,41479371,"[[-77.64669, 43.165426]]",1565.0,Industrial,prime location property. price reduced by 10%.,property listing 278,,False
+1.711275e+06,2026-10-26t11:05:02.598971,loopnet api,41455841,"[[-77.43289, 43.167696]]",3212.0,Office,"modern office building, 2015 construction.",property listing 279,,False
+432378.0,2026-10-26t11:05:02.598971,loopnet api,41448067,"[[-77.631755, 43.184754]]",3402.0,Office,beautiful office space built in 1995. new roof installed in 2020.,property listing 280,,False
+730845.0,2026-10-26t11:05:02.598971,loopnet api,41442905,"[[-77.440107, 43.208431]]",1037.0,Industrial,retail storefront. contact 555-0199 for info.,property listing 281,,False
+1.046168e+06,2026-10-26t11:05:02.598971,loopnet api,41425285,"[[-77.585615, 43.149448]]",685.0,Industrial,"industrial warehouse, zoned m1. 5000 sqft available.",property listing 282,,False
+495204.0,2026-10-26t11:05:02.598971,loopnet api,41411346,"[[-77.591387, 43.160213]]",2473.0,Office,prime location property. price reduced by 10%.,property listing 283,,False
+663371.0,2026-10-26t11:05:02.598971,loopnet api,41374458,"[[-77.498475, 43.199147]]",1298.0,Office,"modern office building, 2015 construction.",property listing 284,,False
+1.305773e+06,2026-10-26t11:05:02.598971,loopnet api,41337321,"[[-77.693259, 43.186123]]",4707.0,Retail,beautiful office space built in 1995. new roof installed in 2020.,property listing 285,,False
+326308.0,2026-10-26t11:05:02.598971,loopnet api,41337037,"[[-77.647369, 43.239909]]",2035.0,Retail,retail storefront. contact 555-0199 for info.,property listing 286,,False
+1.052642e+06,2026-10-26t11:05:02.598971,loopnet api,41336928,"[[-77.699718, 43.103766]]",3881.0,Multi-Family,"industrial warehouse, zoned m1. 5000 sqft available.",property listing 287,,False
+1.575464e+06,2026-10-26t11:05:02.598971,loopnet api,41306927,"[[-77.632159, 43.181116]]",1239.0,Industrial,prime location property. price reduced by 10%.,property listing 288,,False
+306621.0,2026-10-26t11:05:02.598971,loopnet api,41299851,"[[-77.572468, 43.133066]]",2338.0,Multi-Family,"modern office building, 2015 construction.",property listing 289,,False
+542445.0,2026-10-26t11:05:02.598971,loopnet api,41281709,"[[-77.502025, 43.191747]]",960.0,Office,beautiful office space built in 1995. new roof installed in 2020.,property listing 290,,False
+251051.0,2026-10-26t11:05:02.598971,loopnet api,41205651,"[[-77.614482, 43.249256]]",1334.0,Office,retail storefront. contact 555-0199 for info.,property listing 291,,False
+1.361542e+06,2026-10-26t11:05:02.598971,loopnet api,41173207,"[[-77.460554, 43.108386]]",3023.0,Industrial,"industrial warehouse, zoned m1. 5000 sqft available.",property listing 292,,False
+191155.0,2026-10-26t11:05:02.598971,loopnet api,41125280,"[[-77.557511, 43.120522]]",3824.0,Multi-Family,prime location property. price reduced by 10%.,property listing 293,,False
+867976.0,2026-10-26t11:05:02.598971,loopnet api,41076038,"[[-77.733827, 43.163952]]",768.0,Retail,"modern office building, 2015 construction.",property listing 294,,False
+296814.0,2026-10-26t11:05:02.598971,loopnet api,41060876,"[[-77.504253, 43.184231]]",1410.0,Retail,beautiful office space built in 1995. new roof installed in 2020.,property listing 295,,False
+291425.0,2026-10-26t11:05:02.598971,loopnet api,40925850,"[[-77.651604, 43.163892]]",3385.0,Industrial,retail storefront. contact 555-0199 for info.,property listing 296,,False
+469457.0,2026-10-26t11:05:02.598971,loopnet api,40922344,"[[-77.688293, 43.165089]]",4841.0,Multi-Family,"industrial warehouse, zoned m1. 5000 sqft available.",property listing 297,,False
+1.507641e+06,2026-10-26t11:05:02.598971,loopnet api,40896442,"[[-77.495845, 43.204398]]",2157.0,Office,prime location property. price reduced by 10%.,property listing 298,,False
+634929.0,2026-10-26t11:05:02.598971,loopnet api,40736213,"[[-77.579476, 43.138666]]",3196.0,Retail,"modern office building, 2015 construction.",property listing 299,,False
+1.695682e+06,2026-10-26t11:05:02.598971,loopnet api,40622366,"[[-77.598621, 43.186617]]",2183.0,Retail,beautiful office space built in 1995. new roof installed in 2020.,property listing 300,,False
+785893.0,2026-10-26t11:05:02.598971,loopnet api,40621266,"[[-77.701433, 43.150496]]",3111.0,Office,retail storefront. contact 555-0199 for info.,property listing 301,,False
+756525.0,2026-10-26t11:05:02.598971,loopnet api,40438158,"[[-77.638424, 43.189936]]",1462.0,Retail,beautiful office space built in 1995. new roof installed in 2020.,property listing 305,,False
+960457.0,2026-10-26t11:05:02.598971,loopnet api,39694764,"[[-77.570461, 43.201351]]",4760.0,Multi-Family,retail storefront. contact 555-0199 for info.,property listing 311,,False
+646546.0,2026-10-26t11:05:02.598971,loopnet api,34226496,"[[-77.5086, 43.122202]]",1280.0,Retail,"industrial warehouse, zoned m1. 5000 sqft available.",property listing 342,,False
+1.449602e+06,2026-10-26t11:05:02.598971,loopnet api,42473833,"[[-77.585337, 43.189729]]",963.0,Industrial,"modern office building, 2015 construction.",property listing 359,,False
+1.208099e+06,2026-10-26t11:05:02.598971,loopnet api,42138297,"[[-77.607818, 43.158759]]",1596.0,Retail,beautiful office space built in 1995. new roof installed in 2020.,property listing 360,,False
+1.598021e+06,2026-10-26t11:05:02.598971,loopnet api,41776555,"[[-77.584989, 43.189541]]",972.0,Retail,retail storefront. contact 555-0199 for info.,property listing 361,,False
+1.366155e+06,2026-10-26t11:05:02.598971,loopnet api,41597863,"[[-77.614063, 43.15688]]",4408.0,Retail,"industrial warehouse, zoned m1. 5000 sqft available.",property listing 362,,False
+541942.0,2026-10-26t11:05:02.598971,loopnet api,41466233,"[[-77.568856, 43.202144]]",925.0,Industrial,prime location property. price reduced by 10%.,property listing 363,,False
+921368.0,2026-10-26t11:05:02.598971,loopnet api,41223293,"[[-77.566177, 43.201701]]",4189.0,Office,"modern office building, 2015 construction.",property listing 364,,False
+467261.0,2026-10-26t11:05:02.598971,loopnet api,40976207,"[[-77.507708, 43.180254]]",3105.0,Retail,beautiful office space built in 1995. new roof installed in 2020.,property listing 365,,False
+1.944726e+06,2026-10-26t11:05:02.598971,loopnet api,40788677,"[[-77.642982, 43.059313]]",3776.0,Multi-Family,retail storefront. contact 555-0199 for info.,property listing 366,,False
+1.656026e+06,2026-10-26t11:05:02.598971,loopnet api,40774582,"[[-77.6455, 43.241651]]",1105.0,Industrial,"industrial warehouse, zoned m1. 5000 sqft available.",property listing 367,,False
+114995.0,2026-10-26t11:05:02.598971,loopnet api,39591833,"[[-77.575766, 43.188204]]",2882.0,Multi-Family,"industrial warehouse, zoned m1. 5000 sqft available.",property listing 372,,False
+873830.0,2026-10-26t11:05:02.598971,loopnet api,42581728,"[[-77.622421, 43.164344]]",537.0,Industrial,prime location property. price reduced by 10%.,property listing 378,,False
+521250.0,2026-10-26t11:05:02.598971,loopnet api,42433142,"[[-77.65907, 43.158038]]",854.0,Retail,"modern office building, 2015 construction.",property listing 379,,False
+523973.0,2026-10-26t11:05:02.598971,loopnet api,42312685,"[[-77.609535, 43.092]]",3503.0,Multi-Family,beautiful office space built in 1995. new roof installed in 2020.,property listing 380,,False
+1.338035e+06,2026-10-26t11:05:02.598971,loopnet api,42297745,"[[-77.663813, 43.204382]]",760.0,Industrial,retail storefront. contact 555-0199 for info.,property listing 381,,False
+743281.0,2026-10-26t11:05:02.598971,loopnet api,42297708,"[[-77.804828, 43.182484]]",2000.0,Retail,"industrial warehouse, zoned m1. 5000 sqft available.",property listing 382,,False
+300891.0,2026-10-26t11:05:02.598971,loopnet api,42215082,"[[-77.562052, 43.123784]]",4050.0,Office,prime location property. price reduced by 10%.,property listing 383,,False
+1.52991e+06,2026-10-26t11:05:02.598971,loopnet api,42203124,"[[-77.650134, 43.153001], [-77.650081, 43.153649]]",4808.0,Office,"modern office building, 2015 construction.",property listing 384,,False
+659188.0,2026-10-26t11:05:02.598971,loopnet api,42121206,"[[-77.650081, 43.153649]]",3188.0,Office,beautiful office space built in 1995. new roof installed in 2020.,property listing 385,,False
+272925.0,2026-10-26t11:05:02.598971,loopnet api,41730783,"[[-77.605312, 43.210181]]",1814.0,Office,retail storefront. contact 555-0199 for info.,property listing 386,,False
+1.273228e+06,2026-10-26t11:05:02.598971,loopnet api,41465177,"[[-77.521541, 43.090947]]",585.0,Retail,"industrial warehouse, zoned m1. 5000 sqft available.",property listing 387,,False
+688387.0,2026-10-26t11:05:02.598971,loopnet api,41411889,"[[-77.607725, 43.073379]]",2122.0,Industrial,prime location property. price reduced by 10%.,property listing 388,,False
+579615.0,2026-10-26t11:05:02.598971,loopnet api,41077377,"[[-77.686643, 43.181188], [-89.610017, 40.745785], [-88.990958, 40.5339]]",725.0,Retail,"modern office building, 2015 construction.",property listing 389,,False
+337929.0,2026-10-26t11:05:02.598971,loopnet api,41076132,"[[-77.650821, 43.225512]]",3920.0,Industrial,beautiful office space built in 1995. new roof installed in 2020.,property listing 390,,False
+844091.0,2026-10-26t11:05:02.598971,loopnet api,41040690,"[[-77.699985, 43.149222]]",2528.0,Retail,retail storefront. contact 555-0199 for info.,property listing 391,,False
+630527.0,2026-10-26t11:05:02.598971,loopnet api,40243858,"[[-77.601911, 43.20955]]",1791.0,Industrial,prime location property. price reduced by 10%.,property listing 393,,False
+131901.0,2026-10-26t11:05:02.598971,loopnet api,28825532,"[[-77.685286, 43.064068]]",537.0,Industrial,"industrial warehouse, zoned m1. 5000 sqft available.",property listing 407,,False
+1.17318e+06,2026-10-26t11:05:02.598971,loopnet api,42312488,"[[-77.618465, 43.171386]]",1693.0,Retail,beautiful office space built in 1995. new roof installed in 2020.,property listing 410,,False
+1.269703e+06,2026-10-26t11:05:02.598971,loopnet api,26089458,"[[-77.687436, 43.183539]]",4474.0,Industrial,"industrial warehouse, zoned m1. 5000 sqft available.",property listing 412,,False

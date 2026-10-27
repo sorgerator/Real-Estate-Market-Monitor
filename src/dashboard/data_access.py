@@ -25,7 +25,8 @@ def load_data():
         db = client[DB_NAME]
         collection = db[COLLECTION_NAME]
         
-        cursor = collection.find()
+        # Only load cleaned/enriched records that have valid price, area, and type
+        cursor = collection.find({"price": {"$gt": 0}, "type": {"$ne": None}})
         data = list(cursor)
         if data:
             df = pd.DataFrame(data)
@@ -33,16 +34,16 @@ def load_data():
                 df.drop(columns=['_id'], inplace=True)
             logging.info(f"Successfully loaded {len(df)} records from MongoDB.")
         else:
-            logging.warning("MongoDB collection is empty.")
+            logging.warning("MongoDB collection has no enriched records.")
     except Exception as e:
         logging.warning(f"MongoDB connection failed: {e}. Falling back to CSV.")
         
-    if df.empty:
-        logging.info(f"Loading data from CSV fallback: {CSV_FALLBACK_PATH}")
+    if df.empty or (os.path.exists(CSV_FALLBACK_PATH) and len(pd.read_csv(CSV_FALLBACK_PATH)) > len(df)):
+        logging.info(f"Loading data from CSV: {CSV_FALLBACK_PATH}")
         if os.path.exists(CSV_FALLBACK_PATH):
             df = pd.read_csv(CSV_FALLBACK_PATH)
             logging.info(f"Successfully loaded {len(df)} records from CSV.")
-        else:
+        elif df.empty:
             logging.error(f"CSV fallback file not found at {CSV_FALLBACK_PATH}")
             # Generate synthetic data as a last resort
             import numpy as np

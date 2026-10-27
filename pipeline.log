@@ -12848,3 +12848,835 @@ Name: count, dtype: int64
 2026-06-04 12:59:38,403 - INFO - Inserted 246 records into MongoDB.
 2026-06-04 12:59:38,403 - INFO - Creating indexes for type, year, and title...
 2026-06-04 12:59:38,525 - INFO - Indexes created successfully.
+2026-06-04 16:38:40,646 - INFO - Starting MongoDB seeding process...
+2026-06-04 16:38:40,649 - INFO - Loaded 246 records from CSV.
+2026-06-04 16:38:41,194 - INFO - Dropping collection loopnet_listings if it exists...
+2026-06-04 16:38:42,261 - INFO - Inserted 246 records into MongoDB.
+2026-06-04 16:38:42,261 - INFO - Creating indexes for type, year, and title...
+2026-06-04 16:38:42,395 - INFO - Indexes created successfully.
+2026-06-04 16:38:43,048 - INFO - Attempting to connect to MongoDB...
+2026-06-04 16:38:43,095 - INFO - Successfully loaded 246 records from MongoDB.
+2026-06-04 16:38:43,097 - INFO - Attempting to connect to MongoDB...
+2026-06-04 16:38:43,118 - INFO - Successfully loaded 246 records from MongoDB.
+2026-06-04 16:38:43,128 - WARNING - No such comm: 8a04450d2ae543d08ef8eb45dcddaf8c
+2026-06-04 16:39:47,543 - INFO - Starting MongoDB seeding process...
+2026-06-04 16:39:47,553 - INFO - Loaded 246 records from CSV.
+2026-06-04 16:39:47,562 - INFO - Dropping collection loopnet_listings if it exists...
+2026-06-04 16:39:47,663 - INFO - Inserted 246 records into MongoDB.
+2026-06-04 16:39:47,665 - INFO - Creating indexes for type, year, and title...
+2026-06-04 16:39:47,808 - INFO - Indexes created successfully.
+2026-06-04 16:39:47,829 - INFO - Attempting to connect to MongoDB...
+2026-06-04 16:39:47,858 - INFO - Successfully loaded 246 records from MongoDB.
+2026-06-04 16:41:06,906 - INFO - Attempting to connect to MongoDB...
+2026-06-04 16:41:06,919 - INFO - Successfully loaded 246 records from MongoDB.
+2026-06-04 16:41:07,048 - INFO - Attempting to connect to MongoDB...
+2026-06-04 16:41:07,059 - INFO - Successfully loaded 246 records from MongoDB.
+2026-06-04 16:41:07,065 - INFO - Dash is running on http://0.0.0.0:8050/
+
+2026-06-04 16:41:09,616 - INFO - Attempting to connect to MongoDB...
+2026-06-04 16:41:09,666 - INFO - Successfully loaded 246 records from MongoDB.
+2026-06-04 16:41:09,809 - INFO - Attempting to connect to MongoDB...
+2026-06-04 16:41:09,824 - INFO - Successfully loaded 246 records from MongoDB.
+2026-10-26 11:04:51,024 - INFO - Starting Real Estate Market Monitor Pipeline...
+2026-10-26 11:04:51,027 - INFO - Fetching data from API...
+2026-10-26 11:04:51,028 - INFO - --- Fetching Page 1 ---
+2026-10-26 11:04:53,831 - INFO - Successfully grabbed 168 items from page 1
+2026-10-26 11:04:53,836 - INFO - Saved raw data to C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\api\loopnet_page_1.json
+2026-10-26 11:04:53,836 - INFO - --- Fetching Page 2 ---
+2026-10-26 11:04:56,294 - WARNING - Page 2 returned no houses. Trying backup payload...
+2026-10-26 11:04:57,911 - INFO - Successfully grabbed 0 items from page 2
+2026-10-26 11:04:57,913 - INFO - Saved raw data to C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\api\loopnet_page_2.json
+2026-10-26 11:04:57,913 - INFO - --- Fetching Page 3 ---
+2026-10-26 11:04:59,778 - WARNING - Page 3 returned no houses. Trying backup payload...
+2026-10-26 11:05:02,595 - INFO - Successfully grabbed 0 items from page 3
+2026-10-26 11:05:02,596 - INFO - Saved raw data to C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\api\loopnet_page_3.json
+2026-10-26 11:05:02,598 - INFO - Parsing data...
+2026-10-26 11:05:02,598 - INFO - Saving to MongoDB...
+2026-10-26 11:05:02,677 - INFO - Success! Saved 168 houses to MongoDB.
+2026-10-26 11:05:02,678 - INFO - Starting Phase 1.5: Image Processing...
+2026-10-26 11:05:02,678 - INFO - Starting image download for 168 items.
+2026-10-26 11:05:02,686 - INFO - Successfully downloaded 0 images.
+2026-10-26 11:05:02,690 - INFO - Starting batch process for 1 images.
+2026-10-26 11:05:02,691 - INFO - Processing image: C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\property_images\property_33157222.webp
+2026-10-26 11:05:03,603 - INFO - Resized image saved to C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\processed\resized\resized_property_33157222.webp
+2026-10-26 11:05:03,977 - INFO - Success! Saved 1 image metadata entries to MongoDB.
+2026-10-26 11:05:03,977 - INFO - Uploading 2 files to Google Drive.
+2026-10-26 11:05:05,615 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-10-26 11:05:06,841 - ERROR - Error uploading image C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\processed\webp\property_33157222.webp: <HttpError 404 when requesting None returned "File not found: your_google_drive_folder_id.". Details: "[{'message': 'File not found: your_google_drive_folder_id.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+2026-10-26 11:05:07,289 - ERROR - Error uploading image C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\processed\thumbnails\thumb_property_33157222.webp: <HttpError 404 when requesting None returned "File not found: your_google_drive_folder_id.". Details: "[{'message': 'File not found: your_google_drive_folder_id.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+2026-10-26 11:05:07,289 - INFO - Batch processing complete.
+2026-10-26 11:05:07,290 - INFO - Starting unstructured document extraction...
+2026-10-26 11:05:07,291 - INFO - Extracting PDF: C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\pdf\Listing1.pdf
+2026-10-26 11:05:07,736 - INFO - Extracting PDF: C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\pdf\Listing2.pdf
+2026-10-26 11:05:07,907 - INFO - Extracting Word Document: C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\word\Listing3.docx
+2026-10-26 11:05:08,013 - INFO - Extracting Word Document: C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\word\Listing4.docx
+2026-10-26 11:05:08,107 - INFO - Extracting Excel Document: C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\excell\Table1.xlsx
+2026-10-26 11:05:08,135 - INFO - Extracting Excel Document: C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\excell\Table2.xlsx
+2026-10-26 11:05:08,163 - INFO - Saving 6 document records to MongoDB...
+2026-10-26 11:05:08,216 - INFO - Success! Saved 6 houses to MongoDB.
+2026-10-26 11:05:08,216 - INFO - Starting Phase 3: Web Scraping...
+2026-10-26 11:05:08,218 - INFO - Starting Static Web Scraping (BeautifulSoup)...
+2026-10-26 11:05:08,218 - INFO - Checking robots.txt at http://books.toscrape.com/robots.txt...
+2026-10-26 11:05:08,651 - INFO - \u2705 robots.txt ALLOWS scraping for http://books.toscrape.com/catalogue/category/books_1/index.html?page=1
+2026-10-26 11:05:09,328 - INFO - Scraped page 1 successfully. Found 20 items.
+2026-10-26 11:05:09,328 - INFO - Applying a 2-second delay between requests...
+2026-10-26 11:05:11,329 - INFO - Checking robots.txt at http://books.toscrape.com/robots.txt...
+2026-10-26 11:05:12,189 - INFO - \u2705 robots.txt ALLOWS scraping for http://books.toscrape.com/catalogue/category/books_1/index.html?page=2
+2026-10-26 11:05:12,854 - INFO - Scraped page 2 successfully. Found 20 items.
+2026-10-26 11:05:12,857 - INFO - Starting Dynamic Web Scraping (Playwright)...
+2026-10-26 11:05:12,857 - INFO - Checking robots.txt at https://quotes.toscrape.com/robots.txt...
+2026-10-26 11:05:13,595 - INFO - \u2705 robots.txt ALLOWS scraping for https://quotes.toscrape.com/scroll
+2026-10-26 11:05:23,413 - INFO - Dynamic scraping completed. Found 10 items.
+2026-10-26 11:05:23,530 - INFO - Success! Saved 50 houses to MongoDB.
+2026-10-26 11:05:23,530 - INFO - Starting Phase 4: OCR Image Processing...
+2026-10-26 11:05:23,532 - INFO - Starting OCR for image: C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\img\loopNet_1.webp
+2026-10-26 11:05:25,571 - INFO - OCR Compare [loopNet_1.webp]: Raw (135 chars) vs Optimized (99 chars)
+2026-10-26 11:05:25,605 - INFO - Success! Saved 1 houses to MongoDB.
+2026-10-26 11:05:25,606 - INFO - Starting Phase 5: Audio and Video Processing...
+2026-10-26 11:05:25,607 - INFO - Loading audio from C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\audio\Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk].mp3
+2026-10-26 11:05:26,396 - INFO - Trimmed audio saved to C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\processed\audio\trimmed_sample.wav
+2026-10-26 11:05:31,564 - INFO - Converted audio saved to C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\processed\audio\converted_sample.ogg (format: ogg)
+2026-10-26 11:05:31,564 - INFO - Loading audio from C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\audio\Interstellar - Christopher Nolan - Official Warner Bros. [WqNirxasldY].mp3
+2026-10-26 11:05:32,123 - INFO - Loading audio from C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\audio\Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY].mp3
+2026-10-26 11:05:33,102 - INFO - Concatenated audio saved to C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\processed\audio\concatenated_sample.wav
+2026-10-26 11:05:33,114 - INFO - Transcribing C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\audio\Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk].mp3 with model base
+2026-10-26 11:05:33,884 - INFO - HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-base/revision/main "HTTP/1.1 200 OK"
+2026-10-26 11:05:35,271 - INFO - Processing audio with duration 03:12.401
+2026-10-26 11:05:36,343 - INFO - Detected language 'en' with probability 0.99
+2026-10-26 11:05:52,856 - INFO - Success! Saved transcript for C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\audio\Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk].mp3 to MongoDB with ID 6adf26000bd46729f4eb17aa.
+2026-10-26 11:05:52,857 - INFO - Starting chunked transcription for C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\audio\Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk].mp3
+2026-10-26 11:05:53,552 - INFO - Loading cached transcript for chunk 0
+2026-10-26 11:05:53,587 - ERROR - Chunked transcription error: 'text'
+2026-10-26 11:05:53,595 - INFO - Loading video from C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\video\Inception _ The Dream Sequence _ HBO Max.mp4
+2026-10-26 11:05:57,291 - INFO - Audio extracted and saved to C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\processed\audio\Inception _ The Dream Sequence _ HBO Max_from_video.mp3
+2026-10-26 11:05:57,302 - INFO - Extracting frames from C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\video\Inception _ The Dream Sequence _ HBO Max.mp4 every 10 seconds
+2026-10-26 11:06:01,192 - INFO - Extracted 20 frames to C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\processed\frames
+2026-10-26 11:06:01,206 - INFO - Transcribing C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\processed\audio\Inception _ The Dream Sequence _ HBO Max_from_video.mp3 with model base
+2026-10-26 11:06:01,520 - INFO - HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-base/revision/main "HTTP/1.1 200 OK"
+2026-10-26 11:06:02,597 - INFO - Processing audio with duration 03:12.400
+2026-10-26 11:06:03,591 - INFO - Detected language 'en' with probability 0.99
+2026-10-26 11:06:19,488 - INFO - Success! Saved transcript for C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\video\Inception _ The Dream Sequence _ HBO Max.mp4 to MongoDB with ID 6adf261b0bd46729f4eb17ac.
+2026-10-26 11:06:19,489 - INFO - Starting Phase 6: Data Analytics...
+2026-10-26 11:06:19,489 - INFO - --- NumPy Foundations ---
+2026-10-26 11:06:19,490 - INFO - Price Array - Shape: (6,), Dtype: int64, Ndim: 1
+2026-10-26 11:06:19,491 - INFO - Increased Prices (vectorized): [ 367500.  441000.  609000.  304500.  997500. 1260000.]
+2026-10-26 11:06:19,491 - INFO - Price per SqFt (vectorized): [233.33333333 233.33333333 263.63636364 241.66666667 271.42857143
+ 266.66666667]
+2026-10-26 11:06:19,491 - INFO - Loading data from MongoDB collection: loopnet_listings
+2026-10-26 11:06:19,536 - INFO - Loaded integrated data with 414 records.
+2026-10-26 11:06:19,539 - INFO - Memory usage before optimization: 0.20 MB
+2026-10-26 11:06:19,544 - INFO - Skipping category optimization for column coordinates due to unhashable type.
+2026-10-26 11:06:19,548 - INFO - Memory usage after optimization: 0.11 MB
+2026-10-26 11:06:19,560 - INFO - Data exported to data/processed/analytics\raw_integrated_data.csv
+2026-10-26 11:06:19,561 - INFO - Loading CSV in chunks: data/processed/analytics\raw_integrated_data.csv
+2026-10-26 11:06:19,564 - INFO - Processed chunk 1, chunk mean: 1009144.9
+2026-10-26 11:06:19,566 - INFO - Processed chunk 2, chunk mean: 961386.65
+2026-10-26 11:06:19,569 - INFO - Processed chunk 3, chunk mean: 1071516.45
+2026-10-26 11:06:19,571 - INFO - Processed chunk 4, chunk mean: 1114041.35
+2026-10-26 11:06:19,573 - INFO - Processed chunk 5, chunk mean: 1087933.85
+2026-10-26 11:06:19,576 - INFO - Processed chunk 6, chunk mean: 1325267.9
+2026-10-26 11:06:19,578 - INFO - Processed chunk 7, chunk mean: 902985.65
+2026-10-26 11:06:19,580 - INFO - Processed chunk 8, chunk mean: 1002936.05
+2026-10-26 11:06:19,582 - INFO - Processed chunk 9, chunk mean: 1210946.4
+2026-10-26 11:06:19,584 - INFO - Processed chunk 10, chunk mean: 996909.5
+2026-10-26 11:06:19,586 - INFO - Processed chunk 11, chunk mean: 1281782.1
+2026-10-26 11:06:19,587 - INFO - Processed chunk 12, chunk mean: 1101583.9
+2026-10-26 11:06:19,589 - INFO - Processed chunk 13, chunk mean: 914307.6666666666
+2026-10-26 11:06:19,591 - INFO - Processed chunk 14, chunk mean: nan
+2026-10-26 11:06:19,592 - INFO - Processed chunk 15, chunk mean: nan
+2026-10-26 11:06:19,594 - INFO - Processed chunk 16, chunk mean: nan
+2026-10-26 11:06:19,596 - INFO - Processed chunk 17, chunk mean: nan
+2026-10-26 11:06:19,597 - INFO - Processed chunk 18, chunk mean: nan
+2026-10-26 11:06:19,598 - INFO - Processed chunk 19, chunk mean: nan
+2026-10-26 11:06:19,600 - INFO - Processed chunk 20, chunk mean: nan
+2026-10-26 11:06:19,602 - INFO - Processed chunk 21, chunk mean: nan
+2026-10-26 11:06:19,602 - INFO - Global mean price across chunks: 1084611.9512195121
+2026-10-26 11:06:19,603 - INFO - Processing chunks per-property type from: data/processed/analytics\raw_integrated_data.csv
+2026-10-26 11:06:19,655 - INFO - Combined accumulators - Type Means: {'Industrial': np.float64(1068301.5166666666), 'Multi-Family': np.float64(990273.1904761905), 'Office': np.float64(1202709.7192982456), 'Retail': np.float64(1087496.7272727273)}
+2026-10-26 11:06:19,656 - INFO - --- Exploratory Data Analysis ---
+2026-10-26 11:06:19,656 - INFO - Dataset Shape: (414, 12)
+2026-10-26 11:06:19,662 - INFO - Dataset Info:
+None
+2026-10-26 11:06:19,680 - INFO - Descriptive Statistics:
+            price         area  extracted_price_mentions    year
+count      246.00   246.000000                       0.0   246.0
+mean   1084612.00  2624.890137                       NaN  2026.0
+std     532564.75  1275.280640                       NaN     0.0
+min     101427.00   515.000000                       NaN  2026.0
+25%     651730.00  1583.250000                       NaN  2026.0
+50%    1069458.50  2546.500000                       NaN  2026.0
+75%    1545042.50  3664.750000                       NaN  2026.0
+max    1998165.00  4958.000000                       NaN  2026.0
+2026-10-26 11:06:19,681 - INFO - Value Counts for 'type':
+type
+Retail          66
+Multi-Family    63
+Industrial      60
+Office          57
+Name: count, dtype: int64
+2026-10-26 11:06:19,682 - INFO - Unique values in 'type': 4
+2026-10-26 11:06:19,951 - INFO - Saved chart: data/processed/analytics/charts/property_types_dist.png
+2026-10-26 11:06:20,159 - INFO - Saved chart: data/processed/analytics/charts/price_distribution.png
+2026-10-26 11:06:20,159 - INFO - Requirement 7: Simulation of GoogleDrive upload for charts completed. Shared with Amila.
+2026-10-26 11:06:20,160 - INFO - --- Data Selection & Filtering ---
+2026-10-26 11:06:20,165 - INFO - loc selection (first 5 rows, listing_id & price):
+  listing_id      price
+0   33157222  1004254.0
+1   39251110  1381407.0
+2   39817288  1068491.0
+3   39712189  1048362.0
+4   39625204   721615.0
+2026-10-26 11:06:20,169 - INFO - iloc selection (first 3 rows, first 2 columns):
+       price                collected_at
+0  1004254.0  2026-03-22t19:23:40.968538
+1  1381407.0  2026-03-22t19:23:40.968550
+2  1068491.0  2026-03-22t19:23:40.968554
+2026-10-26 11:06:20,170 - INFO - High value properties (price > 1M): 133 found.
+2026-10-26 11:06:20,170 - INFO - Properties with type in ['Office', 'Retail']: 123 found.
+2026-10-26 11:06:20,171 - INFO - Mid-range properties (500k-1M): 70 found.
+2026-10-26 11:06:20,171 - INFO - --- Regular Expression Operations ---
+2026-10-26 11:06:20,173 - INFO - Regex 1: Extracted years from descriptions.
+2026-10-26 11:06:20,174 - INFO - Regex 2: Titles starting with 'Property': 0 found.
+2026-10-26 11:06:20,175 - INFO - Regex 3: Descriptions with phone numbers: 48 found.
+2026-10-26 11:06:20,177 - INFO - Regex 4: Extracted sqft values from descriptions.
+2026-10-26 11:06:20,178 - INFO - Regex 5: 'Type' containing 'office' (case-insensitive): 57 found.
+2026-10-26 11:06:20,184 - INFO - --- Data Quality Assessment ---
+2026-10-26 11:06:20,548 - INFO - Saved heatmap: data/processed/analytics/charts/missing_data_heatmap.png
+2026-10-26 11:06:20,550 - INFO - Saved quality report: data/processed/analytics/data_quality_report.csv
+2026-10-26 11:06:20,550 - INFO - Starting Phase 7: Data Cleaning...
+2026-10-26 11:06:20,551 - INFO - Starting Data Cleaning Pipeline...
+2026-10-26 11:06:20,551 - INFO - Identifying missing values...
+2026-10-26 11:06:20,554 - INFO - Missing value report saved to data/processed/cleaned/missing_report.csv
+2026-10-26 11:06:20,554 - INFO - Handling missing values...
+2026-10-26 11:06:20,555 - INFO - Dropping columns due to high missing ratio: ['extracted_price_mentions', 'extracted_years', 'extracted_sqft']
+2026-10-26 11:06:20,558 - INFO - Replaced zeros with NaN in numeric column: price
+2026-10-26 11:06:20,558 - INFO - Replaced zeros with NaN in numeric column: area
+2026-10-26 11:06:20,558 - INFO - Filled missing values in price with median: 1069458.5
+2026-10-26 11:06:20,558 - INFO - Filled missing values in area with median: 2546.5
+2026-10-26 11:20:39,328 - INFO - Loading data from MongoDB collection: loopnet_listings
+2026-10-26 11:20:39,345 - INFO - Memory usage before optimization: 0.20 MB
+2026-10-26 11:20:39,347 - INFO - Skipping category optimization for column coordinates due to unhashable type.
+2026-10-26 11:20:39,350 - INFO - Memory usage after optimization: 0.11 MB
+2026-10-26 11:20:39,350 - INFO - --- Regular Expression Operations ---
+2026-10-26 11:23:51,102 - INFO - Loading data from MongoDB collection: loopnet_listings
+2026-10-26 11:23:51,134 - INFO - Memory usage before optimization: 0.20 MB
+2026-10-26 11:23:51,137 - INFO - Skipping category optimization for column coordinates due to unhashable type.
+2026-10-26 11:23:51,138 - INFO - Memory usage after optimization: 0.11 MB
+2026-10-26 11:23:51,140 - INFO - --- Regular Expression Operations ---
+2026-10-26 11:23:51,142 - INFO - Regex 1: Extracted years from descriptions.
+2026-10-26 11:23:51,145 - INFO - Regex 2: Titles starting with 'Property': 168 found.
+2026-10-26 11:23:51,146 - INFO - Regex 3: Descriptions with phone numbers: 82 found.
+2026-10-26 11:23:51,147 - INFO - Regex 4: Extracted sqft values from descriptions.
+2026-10-26 11:23:51,148 - INFO - Regex 5: 'Type' containing 'office' (case-insensitive): 98 found.
+2026-10-26 11:23:51,148 - INFO - Starting Data Cleaning Pipeline...
+2026-10-26 11:23:51,149 - INFO - Identifying missing values...
+2026-10-26 11:23:51,154 - INFO - Missing value report saved to data/processed/cleaned/missing_report.csv
+2026-10-26 11:23:51,155 - INFO - Handling missing values...
+2026-10-26 11:23:51,155 - INFO - Dropping columns due to high missing ratio: ['extracted_price_mentions', 'extracted_years', 'extracted_sqft']
+2026-10-26 11:23:51,157 - INFO - Replaced zeros with NaN in numeric column: price
+2026-10-26 11:23:51,157 - INFO - Replaced zeros with NaN in numeric column: area
+2026-10-26 11:23:51,158 - INFO - Filled missing values in price with median: 1086303.5
+2026-10-26 11:23:51,158 - INFO - Filled missing values in area with median: 2722.5
+2026-10-26 11:23:51,158 - INFO - Filled missing values in description with placeholder.
+2026-10-26 11:23:51,158 - INFO - Filled missing values in title with placeholder.
+2026-10-26 11:23:51,158 - INFO - Cleaning string columns...
+2026-10-26 11:23:51,159 - INFO - Cleaning column: collected_at
+2026-10-26 11:23:51,161 - INFO - Column collected_at cleaned.
+2026-10-26 11:23:51,161 - INFO - Cleaning column: source
+2026-10-26 11:23:51,162 - INFO - Column source cleaned.
+2026-10-26 11:23:51,163 - INFO - Cleaning column: listing_id
+2026-10-26 11:23:51,165 - INFO - Column listing_id cleaned.
+2026-10-26 11:23:51,165 - INFO - Cleaning column: coordinates
+2026-10-26 11:23:51,166 - INFO - Column coordinates cleaned.
+2026-10-26 11:23:51,166 - INFO - Cleaning column: type
+2026-10-26 11:23:51,167 - INFO - Column type cleaned.
+2026-10-26 11:23:51,167 - INFO - Cleaning column: description
+2026-10-26 11:23:51,169 - INFO - Column description cleaned.
+2026-10-26 11:23:51,169 - INFO - Cleaning column: title
+2026-10-26 11:23:51,171 - INFO - Column title cleaned.
+2026-10-26 11:23:51,171 - INFO - Cleaning column: short_description_flag
+2026-10-26 11:23:51,172 - INFO - Column short_description_flag cleaned.
+2026-10-26 11:23:51,172 - INFO - Normalizing property types in column: type
+2026-10-26 11:23:51,174 - INFO - --- Extended Regex Cleaning Operations ---
+2026-10-26 11:23:51,174 - INFO - Regex: Extracted price mentions from descriptions.
+2026-10-26 11:23:51,175 - INFO - Regex: Flagged 0 short descriptions.
+2026-10-26 11:23:51,175 - INFO - --- Deduplication Process ---
+2026-10-26 11:23:51,178 - INFO - Removed 0 fully identical rows.
+2026-10-26 11:23:51,179 - INFO - Dropped 81 repeated IDs based on: listing_id
+2026-10-26 11:23:51,179 - INFO - Converting data types...
+2026-10-26 11:23:51,179 - INFO - Converted 'price' to float32.
+2026-10-26 11:23:51,179 - INFO - Converted 'area' to float32.
+2026-10-26 11:23:51,180 - INFO - Converted 'type' to category.
+2026-10-26 11:23:51,181 - INFO - Total memory usage: 0.16 MB
+2026-10-26 11:23:51,181 - INFO - --- Data Validation Phase ---
+2026-10-26 11:23:51,182 - INFO - Unique property types found: {'Multi-Family', 'Office', 'Industrial', 'Retail'}
+2026-10-26 11:23:51,182 - INFO - Cleaned data successfully meets all expectations.
+2026-10-26 11:23:51,186 - INFO - Cleaned dataset saved to data/processed/cleaned\cleaned_data.csv
+2026-10-26 11:23:51,186 - INFO - Data Cleaning Pipeline completed.
+2026-10-26 11:25:38,727 - INFO - Starting Real Estate Market Monitor Pipeline...
+2026-10-26 11:25:38,727 - INFO - Fetching data from API...
+2026-10-26 11:25:38,728 - INFO - --- Fetching Page 1 ---
+2026-10-26 11:25:42,826 - INFO - Successfully grabbed 168 items from page 1
+2026-10-26 11:25:42,834 - INFO - Saved raw data to C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\api\loopnet_page_1.json
+2026-10-26 11:25:42,835 - INFO - --- Fetching Page 2 ---
+2026-10-26 11:25:45,397 - WARNING - Page 2 returned no houses. Trying backup payload...
+2026-10-26 11:25:46,869 - INFO - Successfully grabbed 0 items from page 2
+2026-10-26 11:25:46,873 - INFO - Saved raw data to C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\api\loopnet_page_2.json
+2026-10-26 11:25:46,873 - INFO - --- Fetching Page 3 ---
+2026-10-26 11:25:48,557 - WARNING - Page 3 returned no houses. Trying backup payload...
+2026-10-26 11:25:50,194 - INFO - Successfully grabbed 0 items from page 3
+2026-10-26 11:25:50,194 - INFO - Saved raw data to C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\api\loopnet_page_3.json
+2026-10-26 11:25:50,197 - INFO - Parsing data...
+2026-10-26 11:25:50,197 - INFO - Saving to MongoDB...
+2026-10-26 11:25:50,225 - INFO - Success! Saved 168 houses to MongoDB.
+2026-10-26 11:25:50,225 - INFO - Starting Phase 1.5: Image Processing...
+2026-10-26 11:25:50,226 - INFO - Starting image download for 168 items.
+2026-10-26 11:25:50,231 - INFO - Successfully downloaded 0 images.
+2026-10-26 11:25:50,232 - INFO - Starting batch process for 1 images.
+2026-10-26 11:25:50,233 - INFO - Processing image: C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\property_images\property_33157222.webp
+2026-10-26 11:25:50,639 - INFO - Resized image saved to C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\processed\resized\resized_property_33157222.webp
+2026-10-26 11:25:50,856 - INFO - Success! Saved 1 image metadata entries to MongoDB.
+2026-10-26 11:25:50,856 - INFO - Uploading 2 files to Google Drive.
+2026-10-26 11:25:50,861 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-10-26 11:25:52,021 - ERROR - Error uploading image C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\processed\webp\property_33157222.webp: <HttpError 404 when requesting None returned "File not found: your_google_drive_folder_id.". Details: "[{'message': 'File not found: your_google_drive_folder_id.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+2026-10-26 11:25:52,424 - ERROR - Error uploading image C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\processed\thumbnails\thumb_property_33157222.webp: <HttpError 404 when requesting None returned "File not found: your_google_drive_folder_id.". Details: "[{'message': 'File not found: your_google_drive_folder_id.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+2026-10-26 11:25:52,424 - INFO - Batch processing complete.
+2026-10-26 11:25:52,425 - INFO - Starting unstructured document extraction...
+2026-10-26 11:25:52,426 - INFO - Extracting PDF: C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\pdf\Listing1.pdf
+2026-10-26 11:25:52,624 - INFO - Extracting PDF: C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\pdf\Listing2.pdf
+2026-10-26 11:25:52,687 - INFO - Extracting Word Document: C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\word\Listing3.docx
+2026-10-26 11:25:52,702 - INFO - Extracting Word Document: C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\word\Listing4.docx
+2026-10-26 11:25:52,714 - INFO - Extracting Excel Document: C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\excell\Table1.xlsx
+2026-10-26 11:25:52,724 - INFO - Extracting Excel Document: C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\excell\Table2.xlsx
+2026-10-26 11:25:52,732 - INFO - Saving 6 document records to MongoDB...
+2026-10-26 11:25:52,762 - INFO - Success! Saved 6 houses to MongoDB.
+2026-10-26 11:25:52,762 - INFO - Starting Phase 3: Web Scraping...
+2026-10-26 11:25:52,763 - INFO - Starting Static Web Scraping (BeautifulSoup)...
+2026-10-26 11:25:52,763 - INFO - Checking robots.txt at http://books.toscrape.com/robots.txt...
+2026-10-26 11:25:53,777 - INFO - \u2705 robots.txt ALLOWS scraping for http://books.toscrape.com/catalogue/category/books_1/index.html?page=1
+2026-10-26 11:25:54,745 - INFO - Scraped page 1 successfully. Found 20 items.
+2026-10-26 11:25:54,745 - INFO - Applying a 2-second delay between requests...
+2026-10-26 11:25:56,747 - INFO - Checking robots.txt at http://books.toscrape.com/robots.txt...
+2026-10-26 11:25:57,008 - INFO - \u2705 robots.txt ALLOWS scraping for http://books.toscrape.com/catalogue/category/books_1/index.html?page=2
+2026-10-26 11:25:57,700 - INFO - Scraped page 2 successfully. Found 20 items.
+2026-10-26 11:25:57,701 - INFO - Starting Dynamic Web Scraping (Playwright)...
+2026-10-26 11:25:57,701 - INFO - Checking robots.txt at https://quotes.toscrape.com/robots.txt...
+2026-10-26 11:25:58,566 - INFO - \u2705 robots.txt ALLOWS scraping for https://quotes.toscrape.com/scroll
+2026-10-26 11:26:07,093 - INFO - Dynamic scraping completed. Found 10 items.
+2026-10-26 11:26:07,155 - INFO - Success! Saved 50 houses to MongoDB.
+2026-10-26 11:26:07,157 - INFO - Starting Phase 4: OCR Image Processing...
+2026-10-26 11:26:07,158 - INFO - Starting OCR for image: C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\img\loopNet_1.webp
+2026-10-26 11:26:08,029 - INFO - OCR Compare [loopNet_1.webp]: Raw (135 chars) vs Optimized (99 chars)
+2026-10-26 11:26:08,036 - INFO - Success! Saved 1 houses to MongoDB.
+2026-10-26 11:26:08,036 - INFO - Starting Phase 5: Audio and Video Processing...
+2026-10-26 11:26:08,037 - INFO - Loading audio from C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\audio\Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk].mp3
+2026-10-26 11:26:08,566 - INFO - Trimmed audio saved to C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\processed\audio\trimmed_sample.wav
+2026-10-26 11:26:13,039 - INFO - Converted audio saved to C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\processed\audio\converted_sample.ogg (format: ogg)
+2026-10-26 11:26:13,039 - INFO - Loading audio from C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\audio\Interstellar - Christopher Nolan - Official Warner Bros. [WqNirxasldY].mp3
+2026-10-26 11:26:13,744 - INFO - Loading audio from C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\audio\Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY].mp3
+2026-10-26 11:26:14,415 - INFO - Concatenated audio saved to C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\processed\audio\concatenated_sample.wav
+2026-10-26 11:26:14,421 - INFO - Transcribing C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\audio\Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk].mp3 with model base
+2026-10-26 11:26:14,992 - INFO - HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-base/revision/main "HTTP/1.1 200 OK"
+2026-10-26 11:26:16,180 - INFO - Processing audio with duration 03:12.401
+2026-10-26 11:26:17,027 - INFO - Detected language 'en' with probability 0.99
+2026-10-26 11:26:30,590 - INFO - Success! Saved transcript for C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\audio\Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk].mp3 to MongoDB with ID 6adf2ad64e4c5d396f1a302c.
+2026-10-26 11:26:30,590 - INFO - Starting chunked transcription for C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\audio\Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk].mp3
+2026-10-26 11:26:31,056 - INFO - Loading cached transcript for chunk 0
+2026-10-26 11:26:31,057 - ERROR - Chunked transcription error: 'text'
+2026-10-26 11:26:31,060 - INFO - Loading video from C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\video\Inception _ The Dream Sequence _ HBO Max.mp4
+2026-10-26 11:26:34,598 - INFO - Audio extracted and saved to C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\processed\audio\Inception _ The Dream Sequence _ HBO Max_from_video.mp3
+2026-10-26 11:26:34,616 - INFO - Extracting frames from C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\video\Inception _ The Dream Sequence _ HBO Max.mp4 every 10 seconds
+2026-10-26 11:26:40,226 - INFO - Extracted 20 frames to C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\processed\frames
+2026-10-26 11:26:40,243 - INFO - Transcribing C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\processed\audio\Inception _ The Dream Sequence _ HBO Max_from_video.mp3 with model base
+2026-10-26 11:26:40,441 - INFO - HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-base/revision/main "HTTP/1.1 200 OK"
+2026-10-26 11:26:43,370 - INFO - Processing audio with duration 03:12.400
+2026-10-26 11:26:47,240 - INFO - Detected language 'en' with probability 0.99
+2026-10-26 11:28:01,954 - INFO - Success! Saved transcript for C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\video\Inception _ The Dream Sequence _ HBO Max.mp4 to MongoDB with ID 6adf2b314e4c5d396f1a302e.
+2026-10-26 11:28:01,955 - INFO - Starting Phase 6: Data Analytics...
+2026-10-26 11:28:01,956 - INFO - --- NumPy Foundations ---
+2026-10-26 11:28:01,960 - INFO - Price Array - Shape: (6,), Dtype: int64, Ndim: 1
+2026-10-26 11:28:01,961 - INFO - Increased Prices (vectorized): [ 367500.  441000.  609000.  304500.  997500. 1260000.]
+2026-10-26 11:28:01,961 - INFO - Price per SqFt (vectorized): [233.33333333 233.33333333 263.63636364 241.66666667 271.42857143
+ 266.66666667]
+2026-10-26 11:28:01,961 - INFO - Loading data from MongoDB collection: loopnet_listings
+2026-10-26 11:28:02,009 - INFO - Loaded integrated data with 582 records.
+2026-10-26 11:28:02,019 - INFO - Memory usage before optimization: 0.28 MB
+2026-10-26 11:28:02,038 - INFO - Skipping category optimization for column coordinates due to unhashable type.
+2026-10-26 11:28:02,057 - INFO - Memory usage after optimization: 0.12 MB
+2026-10-26 11:28:02,085 - INFO - Data exported to data/processed/analytics\raw_integrated_data.csv
+2026-10-26 11:28:02,085 - INFO - Loading CSV in chunks: data/processed/analytics\raw_integrated_data.csv
+2026-10-26 11:28:02,100 - INFO - Processed chunk 1, chunk mean: 1009144.9
+2026-10-26 11:28:02,108 - INFO - Processed chunk 2, chunk mean: 961386.65
+2026-10-26 11:28:02,116 - INFO - Processed chunk 3, chunk mean: 1071516.45
+2026-10-26 11:28:02,123 - INFO - Processed chunk 4, chunk mean: 1114041.35
+2026-10-26 11:28:02,130 - INFO - Processed chunk 5, chunk mean: 1087933.85
+2026-10-26 11:28:02,139 - INFO - Processed chunk 6, chunk mean: 1325267.9
+2026-10-26 11:28:02,146 - INFO - Processed chunk 7, chunk mean: 902985.65
+2026-10-26 11:28:02,152 - INFO - Processed chunk 8, chunk mean: 1002936.05
+2026-10-26 11:28:02,161 - INFO - Processed chunk 9, chunk mean: 1210946.4
+2026-10-26 11:28:02,168 - INFO - Processed chunk 10, chunk mean: 996909.5
+2026-10-26 11:28:02,175 - INFO - Processed chunk 11, chunk mean: 1281782.1
+2026-10-26 11:28:02,181 - INFO - Processed chunk 12, chunk mean: 1101583.9
+2026-10-26 11:28:02,188 - INFO - Processed chunk 13, chunk mean: 1043639.15
+2026-10-26 11:28:02,194 - INFO - Processed chunk 14, chunk mean: 949456.55
+2026-10-26 11:28:02,200 - INFO - Processed chunk 15, chunk mean: 970636.75
+2026-10-26 11:28:02,206 - INFO - Processed chunk 16, chunk mean: 1159558.0
+2026-10-26 11:28:02,212 - INFO - Processed chunk 17, chunk mean: 939322.6
+2026-10-26 11:28:02,218 - INFO - Processed chunk 18, chunk mean: 1019241.65
+2026-10-26 11:28:02,224 - INFO - Processed chunk 19, chunk mean: 1012180.95
+2026-10-26 11:28:02,232 - INFO - Processed chunk 20, chunk mean: 1037496.5
+2026-10-26 11:28:02,238 - INFO - Processed chunk 21, chunk mean: 1082014.95
+2026-10-26 11:28:02,244 - INFO - Processed chunk 22, chunk mean: 996487.6
+2026-10-26 11:28:02,250 - INFO - Processed chunk 23, chunk mean: 1066746.25
+2026-10-26 11:28:02,256 - INFO - Processed chunk 24, chunk mean: 992302.4
+2026-10-26 11:28:02,261 - INFO - Processed chunk 25, chunk mean: 755930.75
+2026-10-26 11:28:02,268 - INFO - Processed chunk 26, chunk mean: 988628.75
+2026-10-26 11:28:02,274 - INFO - Processed chunk 27, chunk mean: 955139.6
+2026-10-26 11:28:02,281 - INFO - Processed chunk 28, chunk mean: 1097136.75
+2026-10-26 11:28:02,288 - INFO - Processed chunk 29, chunk mean: 810633.4
+2026-10-26 11:28:02,293 - INFO - Processed chunk 30, chunk mean: 1088736.5
+2026-10-26 11:28:02,294 - INFO - Global mean price across chunks: 1032709.9982817869
+2026-10-26 11:28:02,295 - INFO - Processing chunks per-property type from: data/processed/analytics\raw_integrated_data.csv
+2026-10-26 11:28:02,628 - INFO - Combined accumulators - Type Means: {'Industrial': np.float64(1015507.0340136054), 'Multi-Family': np.float64(975086.0204081633), 'Office': np.float64(1049653.6058394162), 'Retail': np.float64(1090182.0927152317)}
+2026-10-26 11:28:02,630 - INFO - --- Exploratory Data Analysis ---
+2026-10-26 11:28:02,630 - INFO - Dataset Shape: (582, 12)
+2026-10-26 11:28:02,665 - INFO - Dataset Info:
+None
+2026-10-26 11:28:02,747 - INFO - Descriptive Statistics:
+              price         area  extracted_price_mentions    year
+count  5.820000e+02   582.000000                       0.0   246.0
+mean   1.032710e+06  2608.601318                       NaN  2026.0
+std    5.530088e+05  1261.313843                       NaN     0.0
+min    1.014270e+05   503.000000                       NaN  2026.0
+25%    5.578492e+05  1536.000000                       NaN  2026.0
+50%    9.994290e+05  2522.500000                       NaN  2026.0
+75%    1.495690e+06  3592.000000                       NaN  2026.0
+max    1.998165e+06  4991.000000                       NaN  2026.0
+2026-10-26 11:28:02,751 - INFO - Value Counts for 'type':
+type
+Retail          151
+Industrial      147
+Multi-Family    147
+Office          137
+Name: count, dtype: int64
+2026-10-26 11:28:02,755 - INFO - Unique values in 'type': 4
+2026-10-26 11:28:03,413 - INFO - Saved chart: data/processed/analytics/charts/property_types_dist.png
+2026-10-26 11:28:04,018 - INFO - Saved chart: data/processed/analytics/charts/price_distribution.png
+2026-10-26 11:28:04,018 - INFO - Requirement 7: Simulation of GoogleDrive upload for charts completed. Shared with Amila.
+2026-10-26 11:28:04,018 - INFO - --- Data Selection & Filtering ---
+2026-10-26 11:28:04,038 - INFO - loc selection (first 5 rows, listing_id & price):
+  listing_id      price
+0   33157222  1004254.0
+1   39251110  1381407.0
+2   39817288  1068491.0
+3   39712189  1048362.0
+4   39625204   721615.0
+2026-10-26 11:28:04,053 - INFO - iloc selection (first 3 rows, first 2 columns):
+       price                collected_at
+0  1004254.0  2026-03-22t19:23:40.968538
+1  1381407.0  2026-03-22t19:23:40.968550
+2  1068491.0  2026-03-22t19:23:40.968554
+2026-10-26 11:28:04,062 - INFO - High value properties (price > 1M): 291 found.
+2026-10-26 11:28:04,067 - INFO - Properties with type in ['Office', 'Retail']: 288 found.
+2026-10-26 11:28:04,070 - INFO - Mid-range properties (500k-1M): 162 found.
+2026-10-26 11:28:04,071 - INFO - --- Regular Expression Operations ---
+2026-10-26 11:28:04,085 - INFO - Regex 1: Extracted years from descriptions.
+2026-10-26 11:28:04,091 - INFO - Regex 2: Titles starting with 'Property': 336 found.
+2026-10-26 11:28:04,096 - INFO - Regex 3: Descriptions with phone numbers: 116 found.
+2026-10-26 11:28:04,102 - INFO - Regex 4: Extracted sqft values from descriptions.
+2026-10-26 11:28:04,110 - INFO - Regex 5: 'Type' containing 'office' (case-insensitive): 137 found.
+2026-10-26 11:28:04,111 - INFO - --- Data Quality Assessment ---
+2026-10-26 11:28:05,290 - INFO - Saved heatmap: data/processed/analytics/charts/missing_data_heatmap.png
+2026-10-26 11:28:05,297 - INFO - Saved quality report: data/processed/analytics/data_quality_report.csv
+2026-10-26 11:28:05,301 - INFO - Starting Phase 7: Data Cleaning...
+2026-10-26 11:28:05,301 - INFO - Starting Data Cleaning Pipeline...
+2026-10-26 11:28:05,303 - INFO - Identifying missing values...
+2026-10-26 11:28:05,316 - INFO - Missing value report saved to data/processed/cleaned/missing_report.csv
+2026-10-26 11:28:05,317 - INFO - Handling missing values...
+2026-10-26 11:28:05,325 - INFO - Dropping columns due to high missing ratio: ['extracted_price_mentions', 'short_description_flag', 'year', 'extracted_years', 'extracted_sqft']
+2026-10-26 11:28:05,331 - INFO - Replaced zeros with NaN in numeric column: price
+2026-10-26 11:28:05,332 - INFO - Replaced zeros with NaN in numeric column: area
+2026-10-26 11:28:05,334 - INFO - Filled missing values in price with median: 999429.0
+2026-10-26 11:28:05,335 - INFO - Filled missing values in area with median: 2522.5
+2026-10-26 11:28:05,336 - INFO - Filled missing values in description with placeholder.
+2026-10-26 11:28:05,336 - INFO - Filled missing values in title with placeholder.
+2026-10-26 11:28:05,337 - INFO - Cleaning string columns...
+2026-10-26 11:28:05,337 - INFO - Cleaning column: collected_at
+2026-10-26 11:28:05,348 - INFO - Column collected_at cleaned.
+2026-10-26 11:28:05,348 - INFO - Cleaning column: source
+2026-10-26 11:28:05,359 - INFO - Column source cleaned.
+2026-10-26 11:28:05,359 - INFO - Cleaning column: listing_id
+2026-10-26 11:28:05,368 - INFO - Column listing_id cleaned.
+2026-10-26 11:28:05,368 - INFO - Cleaning column: coordinates
+2026-10-26 11:28:05,378 - INFO - Column coordinates cleaned.
+2026-10-26 11:28:05,378 - INFO - Cleaning column: type
+2026-10-26 11:28:05,386 - INFO - Column type cleaned.
+2026-10-26 11:28:05,386 - INFO - Cleaning column: description
+2026-10-26 11:28:05,401 - INFO - Column description cleaned.
+2026-10-26 11:28:05,401 - INFO - Cleaning column: title
+2026-10-26 11:28:05,410 - INFO - Column title cleaned.
+2026-10-26 11:28:05,410 - INFO - Normalizing property types in column: type
+2026-10-26 11:28:05,418 - INFO - --- Extended Regex Cleaning Operations ---
+2026-10-26 11:28:05,422 - INFO - Regex: Extracted price mentions from descriptions.
+2026-10-26 11:28:05,425 - INFO - Regex: Flagged 0 short descriptions.
+2026-10-26 11:28:05,426 - INFO - --- Deduplication Process ---
+2026-10-26 11:28:05,437 - INFO - Removed 0 fully identical rows.
+2026-10-26 11:28:05,440 - INFO - Dropped 249 repeated IDs based on: listing_id
+2026-10-26 11:28:05,442 - INFO - Converting data types...
+2026-10-26 11:28:05,444 - INFO - Converted 'price' to float32.
+2026-10-26 11:28:05,445 - INFO - Converted 'area' to float32.
+2026-10-26 11:28:05,448 - INFO - Converted 'type' to category.
+2026-10-26 11:28:05,454 - INFO - Total memory usage: 0.15 MB
+2026-10-26 11:28:05,454 - INFO - --- Data Validation Phase ---
+2026-10-26 11:28:05,456 - INFO - Unique property types found: {'Retail', 'Office', 'Industrial', 'Multi-Family'}
+2026-10-26 11:28:05,456 - INFO - Cleaned data successfully meets all expectations.
+2026-10-26 11:28:05,464 - INFO - Cleaned dataset saved to data/processed/cleaned\cleaned_data.csv
+2026-10-26 11:28:05,464 - INFO - Data Cleaning Pipeline completed.
+2026-10-26 11:28:05,464 - INFO - Starting Phase 8: Advanced Analytics...
+2026-10-26 11:28:05,469 - INFO - Populating MySQL database...
+2026-10-26 11:31:01,630 - WARNING - MySQL unavailable ((2003, "Can't connect to MySQL server on 'localhost' (timed out)")). Falling back to local SQLite database at C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\processed\analytics\real_estate_fallback.db.
+2026-10-26 11:31:06,051 - WARNING - MySQL unavailable ((2003, "Can't connect to MySQL server on 'localhost' (timed out)")). Falling back to local SQLite database at C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\processed\analytics\real_estate_fallback.db.
+2026-10-26 11:33:40,744 - INFO - Starting Real Estate Market Monitor Pipeline...
+2026-10-26 11:33:40,746 - INFO - Fetching data from API...
+2026-10-26 11:33:40,747 - INFO - --- Fetching Page 1 ---
+2026-10-26 11:33:44,094 - INFO - Successfully grabbed 168 items from page 1
+2026-10-26 11:33:44,102 - INFO - Saved raw data to C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\api\loopnet_page_1.json
+2026-10-26 11:33:44,103 - INFO - --- Fetching Page 2 ---
+2026-10-26 11:33:46,499 - WARNING - Page 2 returned no houses. Trying backup payload...
+2026-10-26 11:33:48,948 - INFO - Successfully grabbed 0 items from page 2
+2026-10-26 11:33:48,953 - INFO - Saved raw data to C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\api\loopnet_page_2.json
+2026-10-26 11:33:48,953 - INFO - --- Fetching Page 3 ---
+2026-10-26 11:33:51,169 - WARNING - Page 3 returned no houses. Trying backup payload...
+2026-10-26 11:33:53,518 - INFO - Successfully grabbed 0 items from page 3
+2026-10-26 11:33:53,521 - INFO - Saved raw data to C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\api\loopnet_page_3.json
+2026-10-26 11:33:53,526 - INFO - Parsing data...
+2026-10-26 11:33:53,527 - INFO - Saving to MongoDB...
+2026-10-26 11:33:53,571 - INFO - Success! Saved 168 houses to MongoDB.
+2026-10-26 11:33:53,571 - INFO - Starting Phase 1.5: Image Processing...
+2026-10-26 11:33:53,572 - INFO - Starting image download for 168 items.
+2026-10-26 11:33:53,619 - INFO - Successfully downloaded 0 images.
+2026-10-26 11:33:53,638 - INFO - Starting batch process for 1 images.
+2026-10-26 11:33:53,645 - INFO - Processing image: C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\property_images\property_33157222.webp
+2026-10-26 11:33:54,579 - INFO - Resized image saved to C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\processed\resized\resized_property_33157222.webp
+2026-10-26 11:33:55,129 - INFO - Success! Saved 1 image metadata entries to MongoDB.
+2026-10-26 11:33:55,130 - INFO - Uploading 2 files to Google Drive.
+2026-10-26 11:33:55,139 - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-10-26 11:33:56,785 - ERROR - Error uploading image C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\processed\webp\property_33157222.webp: <HttpError 404 when requesting None returned "File not found: your_google_drive_folder_id.". Details: "[{'message': 'File not found: your_google_drive_folder_id.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+2026-10-26 11:33:57,254 - ERROR - Error uploading image C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\processed\thumbnails\thumb_property_33157222.webp: <HttpError 404 when requesting None returned "File not found: your_google_drive_folder_id.". Details: "[{'message': 'File not found: your_google_drive_folder_id.', 'domain': 'global', 'reason': 'notFound', 'location': 'fileId', 'locationType': 'parameter'}]">
+2026-10-26 11:33:57,254 - INFO - Batch processing complete.
+2026-10-26 11:33:57,256 - INFO - Starting unstructured document extraction...
+2026-10-26 11:33:57,257 - INFO - Extracting PDF: C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\pdf\Listing1.pdf
+2026-10-26 11:33:57,750 - INFO - Extracting PDF: C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\pdf\Listing2.pdf
+2026-10-26 11:33:58,003 - INFO - Extracting Word Document: C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\word\Listing3.docx
+2026-10-26 11:33:58,059 - INFO - Extracting Word Document: C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\word\Listing4.docx
+2026-10-26 11:33:58,114 - INFO - Extracting Excel Document: C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\excell\Table1.xlsx
+2026-10-26 11:33:58,147 - INFO - Extracting Excel Document: C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\excell\Table2.xlsx
+2026-10-26 11:33:58,173 - INFO - Saving 6 document records to MongoDB...
+2026-10-26 11:33:58,222 - INFO - Success! Saved 6 houses to MongoDB.
+2026-10-26 11:33:58,223 - INFO - Starting Phase 3: Web Scraping...
+2026-10-26 11:33:58,223 - INFO - Starting Static Web Scraping (BeautifulSoup)...
+2026-10-26 11:33:58,223 - INFO - Checking robots.txt at http://books.toscrape.com/robots.txt...
+2026-10-26 11:33:58,657 - INFO - \u2705 robots.txt ALLOWS scraping for http://books.toscrape.com/catalogue/category/books_1/index.html?page=1
+2026-10-26 11:33:59,285 - INFO - Scraped page 1 successfully. Found 20 items.
+2026-10-26 11:33:59,285 - INFO - Applying a 2-second delay between requests...
+2026-10-26 11:34:01,286 - INFO - Checking robots.txt at http://books.toscrape.com/robots.txt...
+2026-10-26 11:34:01,549 - INFO - \u2705 robots.txt ALLOWS scraping for http://books.toscrape.com/catalogue/category/books_1/index.html?page=2
+2026-10-26 11:34:02,163 - INFO - Scraped page 2 successfully. Found 20 items.
+2026-10-26 11:34:02,164 - INFO - Starting Dynamic Web Scraping (Playwright)...
+2026-10-26 11:34:02,164 - INFO - Checking robots.txt at https://quotes.toscrape.com/robots.txt...
+2026-10-26 11:34:02,804 - INFO - \u2705 robots.txt ALLOWS scraping for https://quotes.toscrape.com/scroll
+2026-10-26 11:34:07,352 - INFO - Dynamic scraping completed. Found 10 items.
+2026-10-26 11:34:07,457 - INFO - Success! Saved 50 houses to MongoDB.
+2026-10-26 11:34:07,460 - INFO - Starting Phase 4: OCR Image Processing...
+2026-10-26 11:34:07,461 - INFO - Starting OCR for image: C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\img\loopNet_1.webp
+2026-10-26 11:34:08,584 - INFO - OCR Compare [loopNet_1.webp]: Raw (135 chars) vs Optimized (99 chars)
+2026-10-26 11:34:08,643 - INFO - Success! Saved 1 houses to MongoDB.
+2026-10-26 11:34:08,645 - INFO - Starting Phase 5: Audio and Video Processing...
+2026-10-26 11:34:08,646 - INFO - Loading audio from C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\audio\Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk].mp3
+2026-10-26 11:34:09,676 - INFO - Trimmed audio saved to C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\processed\audio\trimmed_sample.wav
+2026-10-26 11:34:16,061 - INFO - Converted audio saved to C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\processed\audio\converted_sample.ogg (format: ogg)
+2026-10-26 11:34:16,061 - INFO - Loading audio from C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\audio\Interstellar - Christopher Nolan - Official Warner Bros. [WqNirxasldY].mp3
+2026-10-26 11:34:16,635 - INFO - Loading audio from C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\audio\Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY].mp3
+2026-10-26 11:34:17,395 - INFO - Concatenated audio saved to C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\processed\audio\concatenated_sample.wav
+2026-10-26 11:34:17,404 - INFO - Transcribing C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\audio\Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk].mp3 with model base
+2026-10-26 11:34:17,910 - INFO - HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-base/revision/main "HTTP/1.1 200 OK"
+2026-10-26 11:34:19,538 - INFO - Processing audio with duration 03:12.401
+2026-10-26 11:34:22,933 - INFO - Detected language 'en' with probability 0.99
+2026-10-26 11:35:06,307 - INFO - Success! Saved transcript for C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\audio\Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk].mp3 to MongoDB with ID 6adf2cdaec62ece6be7d3bbf.
+2026-10-26 11:35:06,308 - INFO - Starting chunked transcription for C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\audio\Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk].mp3
+2026-10-26 11:35:07,087 - INFO - Loading cached transcript for chunk 0
+2026-10-26 11:35:07,090 - ERROR - Chunked transcription error: 'text'
+2026-10-26 11:35:07,099 - INFO - Loading video from C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\video\Inception _ The Dream Sequence _ HBO Max.mp4
+2026-10-26 11:35:12,302 - INFO - Audio extracted and saved to C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\processed\audio\Inception _ The Dream Sequence _ HBO Max_from_video.mp3
+2026-10-26 11:35:12,312 - INFO - Extracting frames from C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\video\Inception _ The Dream Sequence _ HBO Max.mp4 every 10 seconds
+2026-10-26 11:35:17,258 - INFO - Extracted 20 frames to C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\processed\frames
+2026-10-26 11:35:17,272 - INFO - Transcribing C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\processed\audio\Inception _ The Dream Sequence _ HBO Max_from_video.mp3 with model base
+2026-10-26 11:35:17,485 - INFO - HTTP Request: GET https://huggingface.co/api/models/Systran/faster-whisper-base/revision/main "HTTP/1.1 200 OK"
+2026-10-26 11:35:20,304 - INFO - Processing audio with duration 03:12.400
+2026-10-26 11:35:23,526 - INFO - Detected language 'en' with probability 0.99
+2026-10-26 11:35:40,962 - INFO - Success! Saved transcript for C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\raw\video\Inception _ The Dream Sequence _ HBO Max.mp4 to MongoDB with ID 6adf2cfcec62ece6be7d3bc1.
+2026-10-26 11:35:40,962 - INFO - Starting Phase 6: Data Analytics...
+2026-10-26 11:35:40,962 - INFO - --- NumPy Foundations ---
+2026-10-26 11:35:40,963 - INFO - Price Array - Shape: (6,), Dtype: int64, Ndim: 1
+2026-10-26 11:35:40,963 - INFO - Increased Prices (vectorized): [ 367500.  441000.  609000.  304500.  997500. 1260000.]
+2026-10-26 11:35:40,963 - INFO - Price per SqFt (vectorized): [233.33333333 233.33333333 263.63636364 241.66666667 271.42857143
+ 266.66666667]
+2026-10-26 11:35:40,963 - INFO - Loading data from MongoDB collection: loopnet_listings
+2026-10-26 11:35:40,979 - INFO - Loaded integrated data with 750 records.
+2026-10-26 11:35:40,981 - INFO - Memory usage before optimization: 0.35 MB
+2026-10-26 11:35:40,985 - INFO - Skipping category optimization for column coordinates due to unhashable type.
+2026-10-26 11:35:40,988 - INFO - Memory usage after optimization: 0.15 MB
+2026-10-26 11:35:40,996 - INFO - Data exported to data/processed/analytics\raw_integrated_data.csv
+2026-10-26 11:35:40,996 - INFO - Loading CSV in chunks: data/processed/analytics\raw_integrated_data.csv
+2026-10-26 11:35:40,999 - INFO - Processed chunk 1, chunk mean: 1009144.9
+2026-10-26 11:35:41,001 - INFO - Processed chunk 2, chunk mean: 961386.65
+2026-10-26 11:35:41,004 - INFO - Processed chunk 3, chunk mean: 1071516.45
+2026-10-26 11:35:41,006 - INFO - Processed chunk 4, chunk mean: 1114041.35
+2026-10-26 11:35:41,009 - INFO - Processed chunk 5, chunk mean: 1087933.85
+2026-10-26 11:35:41,011 - INFO - Processed chunk 6, chunk mean: 1325267.9
+2026-10-26 11:35:41,013 - INFO - Processed chunk 7, chunk mean: 902985.65
+2026-10-26 11:35:41,015 - INFO - Processed chunk 8, chunk mean: 1002936.05
+2026-10-26 11:35:41,018 - INFO - Processed chunk 9, chunk mean: 1210946.4
+2026-10-26 11:35:41,019 - INFO - Processed chunk 10, chunk mean: 996909.5
+2026-10-26 11:35:41,022 - INFO - Processed chunk 11, chunk mean: 1281782.1
+2026-10-26 11:35:41,024 - INFO - Processed chunk 12, chunk mean: 1101583.9
+2026-10-26 11:35:41,025 - INFO - Processed chunk 13, chunk mean: 745455.35
+2026-10-26 11:35:41,027 - INFO - Processed chunk 14, chunk mean: 1080676.45
+2026-10-26 11:35:41,029 - INFO - Processed chunk 15, chunk mean: 717460.45
+2026-10-26 11:35:41,031 - INFO - Processed chunk 16, chunk mean: 1073920.85
+2026-10-26 11:35:41,032 - INFO - Processed chunk 17, chunk mean: 1211482.8
+2026-10-26 11:35:41,034 - INFO - Processed chunk 18, chunk mean: 1037513.9
+2026-10-26 11:35:41,036 - INFO - Processed chunk 19, chunk mean: 1050928.2
+2026-10-26 11:35:41,037 - INFO - Processed chunk 20, chunk mean: 948087.35
+2026-10-26 11:35:41,039 - INFO - Processed chunk 21, chunk mean: 1242511.6
+2026-10-26 11:35:41,040 - INFO - Processed chunk 22, chunk mean: 977180.1
+2026-10-26 11:35:41,042 - INFO - Processed chunk 23, chunk mean: 1095458.0
+2026-10-26 11:35:41,043 - INFO - Processed chunk 24, chunk mean: 1150338.8
+2026-10-26 11:35:41,045 - INFO - Processed chunk 25, chunk mean: 1058784.65
+2026-10-26 11:35:41,046 - INFO - Processed chunk 26, chunk mean: 1308045.2
+2026-10-26 11:35:41,048 - INFO - Processed chunk 27, chunk mean: 1001878.6
+2026-10-26 11:35:41,049 - INFO - Processed chunk 28, chunk mean: 992114.9
+2026-10-26 11:35:41,052 - INFO - Processed chunk 29, chunk mean: 1139211.2
+2026-10-26 11:35:41,053 - INFO - Processed chunk 30, chunk mean: 1293264.85
+2026-10-26 11:35:41,055 - INFO - Processed chunk 31, chunk mean: 913226.6
+2026-10-26 11:35:41,056 - INFO - Processed chunk 32, chunk mean: 1185032.4
+2026-10-26 11:35:41,058 - INFO - Processed chunk 33, chunk mean: 1073099.0
+2026-10-26 11:35:41,060 - INFO - Processed chunk 34, chunk mean: 931377.5
+2026-10-26 11:35:41,061 - INFO - Processed chunk 35, chunk mean: 948105.7
+2026-10-26 11:35:41,062 - INFO - Processed chunk 36, chunk mean: 1031922.45
+2026-10-26 11:35:41,064 - INFO - Processed chunk 37, chunk mean: 950258.35
+2026-10-26 11:35:41,066 - INFO - Processed chunk 38, chunk mean: 1138454.2
+2026-10-26 11:35:41,066 - INFO - Global mean price across chunks: 1061146.588
+2026-10-26 11:35:41,067 - INFO - Processing chunks per-property type from: data/processed/analytics\raw_integrated_data.csv
+2026-10-26 11:35:41,168 - INFO - Combined accumulators - Type Means: {'Industrial': np.float64(1016774.6402116402), 'Multi-Family': np.float64(1062065.9060773482), 'Office': np.float64(1120575.4894736842), 'Retail': np.float64(1044980.3263157895)}
+2026-10-26 11:35:41,169 - INFO - --- Exploratory Data Analysis ---
+2026-10-26 11:35:41,169 - INFO - Dataset Shape: (750, 12)
+2026-10-26 11:35:41,176 - INFO - Dataset Info:
+None
+2026-10-26 11:35:41,200 - INFO - Descriptive Statistics:
+              price         area  extracted_price_mentions    year
+count  7.500000e+02   750.000000                       0.0   246.0
+mean   1.061147e+06  2722.393311                       NaN  2026.0
+std    5.572723e+05  1295.980713                       NaN     0.0
+min    1.014270e+05   515.000000                       NaN  2026.0
+25%    5.584442e+05  1602.000000                       NaN  2026.0
+50%    1.051614e+06  2687.000000                       NaN  2026.0
+75%    1.567231e+06  3834.750000                       NaN  2026.0
+max    1.998165e+06  4996.000000                       NaN  2026.0
+2026-10-26 11:35:41,203 - INFO - Value Counts for 'type':
+type
+Office          190
+Retail          190
+Industrial      189
+Multi-Family    181
+Name: count, dtype: int64
+2026-10-26 11:35:41,204 - INFO - Unique values in 'type': 4
+2026-10-26 11:35:41,320 - INFO - Saved chart: data/processed/analytics/charts/property_types_dist.png
+2026-10-26 11:35:41,428 - INFO - Saved chart: data/processed/analytics/charts/price_distribution.png
+2026-10-26 11:35:41,428 - INFO - Requirement 7: Simulation of GoogleDrive upload for charts completed. Shared with Amila.
+2026-10-26 11:35:41,428 - INFO - --- Data Selection & Filtering ---
+2026-10-26 11:35:41,435 - INFO - loc selection (first 5 rows, listing_id & price):
+  listing_id      price
+0   33157222  1004254.0
+1   39251110  1381407.0
+2   39817288  1068491.0
+3   39712189  1048362.0
+4   39625204   721615.0
+2026-10-26 11:35:41,439 - INFO - iloc selection (first 3 rows, first 2 columns):
+       price                collected_at
+0  1004254.0  2026-03-22t19:23:40.968538
+1  1381407.0  2026-03-22t19:23:40.968550
+2  1068491.0  2026-03-22t19:23:40.968554
+2026-10-26 11:35:41,441 - INFO - High value properties (price > 1M): 394 found.
+2026-10-26 11:35:41,443 - INFO - Properties with type in ['Office', 'Retail']: 380 found.
+2026-10-26 11:35:41,444 - INFO - Mid-range properties (500k-1M): 199 found.
+2026-10-26 11:35:41,445 - INFO - --- Regular Expression Operations ---
+2026-10-26 11:35:41,455 - INFO - Regex 1: Extracted years from descriptions.
+2026-10-26 11:35:41,460 - INFO - Regex 2: Titles starting with 'Property': 504 found.
+2026-10-26 11:35:41,465 - INFO - Regex 3: Descriptions with phone numbers: 149 found.
+2026-10-26 11:35:41,469 - INFO - Regex 4: Extracted sqft values from descriptions.
+2026-10-26 11:35:41,473 - INFO - Regex 5: 'Type' containing 'office' (case-insensitive): 190 found.
+2026-10-26 11:35:41,473 - INFO - --- Data Quality Assessment ---
+2026-10-26 11:35:41,742 - INFO - Saved heatmap: data/processed/analytics/charts/missing_data_heatmap.png
+2026-10-26 11:35:41,744 - INFO - Saved quality report: data/processed/analytics/data_quality_report.csv
+2026-10-26 11:35:41,744 - INFO - Starting Phase 7: Data Cleaning...
+2026-10-26 11:35:41,744 - INFO - Starting Data Cleaning Pipeline...
+2026-10-26 11:35:41,745 - INFO - Identifying missing values...
+2026-10-26 11:35:41,748 - INFO - Missing value report saved to data/processed/cleaned/missing_report.csv
+2026-10-26 11:35:41,748 - INFO - Handling missing values...
+2026-10-26 11:35:41,749 - INFO - Dropping columns due to high missing ratio: ['extracted_price_mentions', 'short_description_flag', 'year', 'extracted_years', 'extracted_sqft']
+2026-10-26 11:35:41,749 - INFO - Replaced zeros with NaN in numeric column: price
+2026-10-26 11:35:41,751 - INFO - Replaced zeros with NaN in numeric column: area
+2026-10-26 11:35:41,751 - INFO - Filled missing values in price with median: 1051613.5
+2026-10-26 11:35:41,751 - INFO - Filled missing values in area with median: 2687.0
+2026-10-26 11:35:41,752 - INFO - Filled missing values in description with placeholder.
+2026-10-26 11:35:41,752 - INFO - Filled missing values in title with placeholder.
+2026-10-26 11:35:41,752 - INFO - Cleaning string columns...
+2026-10-26 11:35:41,752 - INFO - Cleaning column: collected_at
+2026-10-26 11:35:41,754 - INFO - Column collected_at cleaned.
+2026-10-26 11:35:41,754 - INFO - Cleaning column: source
+2026-10-26 11:35:41,759 - INFO - Column source cleaned.
+2026-10-26 11:35:41,759 - INFO - Cleaning column: listing_id
+2026-10-26 11:35:41,764 - INFO - Column listing_id cleaned.
+2026-10-26 11:35:41,764 - INFO - Cleaning column: coordinates
+2026-10-26 11:35:41,769 - INFO - Column coordinates cleaned.
+2026-10-26 11:35:41,769 - INFO - Cleaning column: type
+2026-10-26 11:35:41,773 - INFO - Column type cleaned.
+2026-10-26 11:35:41,773 - INFO - Cleaning column: description
+2026-10-26 11:35:41,782 - INFO - Column description cleaned.
+2026-10-26 11:35:41,782 - INFO - Cleaning column: title
+2026-10-26 11:35:41,787 - INFO - Column title cleaned.
+2026-10-26 11:35:41,787 - INFO - Normalizing property types in column: type
+2026-10-26 11:35:41,789 - INFO - --- Extended Regex Cleaning Operations ---
+2026-10-26 11:35:41,790 - INFO - Regex: Extracted price mentions from descriptions.
+2026-10-26 11:35:41,791 - INFO - Regex: Flagged 0 short descriptions.
+2026-10-26 11:35:41,791 - INFO - --- Deduplication Process ---
+2026-10-26 11:35:41,792 - INFO - Removed 0 fully identical rows.
+2026-10-26 11:35:41,793 - INFO - Dropped 417 repeated IDs based on: listing_id
+2026-10-26 11:35:41,793 - INFO - Converting data types...
+2026-10-26 11:35:41,793 - INFO - Converted 'price' to float32.
+2026-10-26 11:35:41,794 - INFO - Converted 'area' to float32.
+2026-10-26 11:35:41,794 - INFO - Converted 'type' to category.
+2026-10-26 11:35:41,794 - INFO - Total memory usage: 0.15 MB
+2026-10-26 11:35:41,794 - INFO - --- Data Validation Phase ---
+2026-10-26 11:35:41,795 - INFO - Unique property types found: {'Retail', 'Industrial', 'Office', 'Multi-Family'}
+2026-10-26 11:35:41,795 - INFO - Cleaned data successfully meets all expectations.
+2026-10-26 11:35:41,799 - INFO - Cleaned dataset saved to data/processed/cleaned\cleaned_data.csv
+2026-10-26 11:35:41,799 - INFO - Data Cleaning Pipeline completed.
+2026-10-26 11:35:41,799 - INFO - Starting Phase 8: Advanced Analytics...
+2026-10-26 11:35:41,801 - INFO - Populating MySQL database...
+2026-10-26 11:35:45,832 - WARNING - MySQL unavailable ((2003, "Can't connect to MySQL server on 'localhost' (timed out)")). Falling back to local SQLite database at C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\processed\analytics\real_estate_fallback.db.
+2026-10-26 11:35:49,924 - WARNING - MySQL unavailable ((2003, "Can't connect to MySQL server on 'localhost' (timed out)")). Falling back to local SQLite database at C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\processed\analytics\real_estate_fallback.db.
+2026-10-26 11:35:49,932 - INFO - Comparing join types...
+2026-10-26 11:35:49,944 - INFO - Generating pivot tables...
+2026-10-26 11:35:49,962 - INFO - Performing GroupBy aggregations...
+2026-10-26 11:35:49,978 - INFO - Processing time series data...
+2026-10-26 11:35:50,023 - INFO - MongoDB aggregation completed.
+2026-10-26 11:35:50,152 - INFO - Starting Phase 9: Embeddings and Vector Search...
+2026-10-26 11:35:59,390 - INFO - No device provided, using cpu
+2026-10-26 11:36:00,065 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-26 11:36:00,067 - WARNING - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-10-26 11:36:00,101 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-10-26 11:36:00,269 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-26 11:36:00,286 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-10-26 11:36:00,287 - INFO - Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-10-26 11:36:00,499 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-26 11:36:00,577 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-10-26 11:36:00,725 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-10-26 11:36:00,742 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md "HTTP/1.1 200 OK"
+2026-10-26 11:36:00,883 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-26 11:36:00,899 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-10-26 11:36:01,088 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-26 11:36:01,103 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-10-26 11:36:01,238 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-10-26 11:36:01,397 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-26 11:36:01,412 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-10-26 11:36:01,703 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-10-26 11:36:01,840 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-10-26 11:36:01,976 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-10-26 11:36:02,111 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-10-26 11:36:02,244 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-26 11:36:02,259 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-10-26 11:36:02,392 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-26 11:36:02,436 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-10-26 11:36:02,568 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-26 11:36:02,583 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-10-26 11:36:02,720 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-26 11:36:02,739 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-10-26 11:36:02,874 - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-10-26 11:36:03,056 - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-10-26 11:36:03,242 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-26 11:36:03,258 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-10-26 11:36:03,390 - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-10-26 11:36:03,479 - INFO - No device provided, using cpu
+2026-10-26 11:36:03,613 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-26 11:36:03,636 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-10-26 11:36:03,769 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-26 11:36:03,794 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-10-26 11:36:03,795 - INFO - Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-10-26 11:36:03,927 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-26 11:36:03,956 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-10-26 11:36:04,087 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-10-26 11:36:04,101 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md "HTTP/1.1 200 OK"
+2026-10-26 11:36:04,233 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-26 11:36:04,253 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-10-26 11:36:04,439 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-26 11:36:04,454 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-10-26 11:36:04,592 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-10-26 11:36:04,724 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-26 11:36:04,986 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-10-26 11:36:05,169 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-10-26 11:36:05,803 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-10-26 11:36:05,966 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-10-26 11:36:06,115 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-10-26 11:36:06,312 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-26 11:36:06,343 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-10-26 11:36:06,478 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-26 11:36:06,514 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-10-26 11:36:06,656 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-26 11:36:06,669 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-10-26 11:36:06,800 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-26 11:36:06,818 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-10-26 11:36:06,955 - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-10-26 11:36:07,103 - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-10-26 11:36:07,284 - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-26 11:36:07,303 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-10-26 11:36:07,456 - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-10-26 11:36:07,478 - INFO - Starting Phase 10: Data Visualization...
+2026-10-26 11:36:12,328 - INFO - Pipeline finished successfully
+2026-10-26 11:36:31,249 - INFO - Attempting to connect to MongoDB...
+2026-10-26 11:36:31,284 - INFO - Successfully loaded 750 records from MongoDB.
+2026-10-26 11:36:31,474 - INFO - Attempting to connect to MongoDB...
+2026-10-26 11:36:31,504 - INFO - Successfully loaded 750 records from MongoDB.
+2026-10-26 11:36:31,517 - INFO - Dash is running on http://0.0.0.0:8050/
+
+2026-10-26 11:36:33,336 - INFO - Attempting to connect to MongoDB...
+2026-10-26 11:36:33,368 - INFO - Successfully loaded 750 records from MongoDB.
+2026-10-26 11:36:33,459 - INFO - Attempting to connect to MongoDB...
+2026-10-26 11:36:33,502 - INFO - Successfully loaded 750 records from MongoDB.
+2026-10-26 11:43:36,205 - INFO - Attempting to connect to MongoDB...
+2026-10-26 11:43:36,243 - INFO - Successfully loaded 750 records from MongoDB.
+2026-10-26 11:43:36,248 - INFO - Attempting to connect to MongoDB...
+2026-10-26 11:43:36,273 - INFO - Successfully loaded 750 records from MongoDB.
+2026-10-26 11:46:48,351 - INFO - Attempting to connect to MongoDB...
+2026-10-26 11:46:48,371 - INFO - Successfully loaded 750 records from MongoDB.
+2026-10-26 11:46:48,376 - INFO - Attempting to connect to MongoDB...
+2026-10-26 11:46:48,401 - INFO - Successfully loaded 750 records from MongoDB.
+2026-10-26 11:47:36,419 - INFO - Attempting to connect to MongoDB...
+2026-10-26 11:47:36,486 - INFO - Successfully loaded 246 records from MongoDB.
+2026-10-26 11:47:36,494 - INFO - Loading data from CSV: C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\processed\cleaned\cleaned_data.csv
+2026-10-26 11:47:36,497 - INFO - Successfully loaded 333 records from CSV.
+2026-10-26 11:47:36,736 - INFO - Attempting to connect to MongoDB...
+2026-10-26 11:47:36,776 - INFO - Successfully loaded 246 records from MongoDB.
+2026-10-26 11:47:36,779 - INFO - Loading data from CSV: C:\Users\User\Desktop\Real-Estate-Market-Monitor\data\processed\cleaned\cleaned_data.csv
+2026-10-26 11:47:36,781 - INFO - Successfully loaded 333 records from CSV.
+2026-10-26 11:47:56,630 - INFO - Starting MongoDB seeding process...
+2026-10-26 11:47:56,633 - INFO - Loaded 333 records from CSV.
+2026-10-26 11:47:56,654 - INFO - Dropping collection loopnet_listings if it exists...
+2026-10-26 11:47:56,861 - INFO - Inserted 333 records into MongoDB.
+2026-10-26 11:47:56,861 - INFO - Creating indexes for type, year, and title...
+2026-10-26 11:47:56,960 - INFO - Indexes created successfully.
+2026-10-26 11:47:59,004 - INFO - Attempting to connect to MongoDB...
+2026-10-26 11:47:59,032 - INFO - Successfully loaded 333 records from MongoDB.
+2026-10-26 11:47:59,040 - INFO - Attempting to connect to MongoDB...
+2026-10-26 11:47:59,052 - INFO - Successfully loaded 333 records from MongoDB.
